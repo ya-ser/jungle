@@ -1,8 +1,6 @@
 class CartsController < ApplicationController
 
   def show
-    raise "test"
-    render
   end
 
   def add_item
