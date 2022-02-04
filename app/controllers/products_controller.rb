@@ -5,7 +5,6 @@ class ProductsController < ApplicationController
   end
 
   def show
-    raise "test"
     @product = Product.find params[:id]
   end
 
